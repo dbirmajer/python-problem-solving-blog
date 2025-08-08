@@ -45,7 +45,7 @@ Let's trace through a few examples:
 ### Solution 1: Traditional Approach
 ```python
 total = 0
-for x in range(1000):
+for x in range(1_000):
     if x % 3 == 0 or x % 5 == 0:
         total += x
 print(total)

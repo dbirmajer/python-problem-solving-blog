@@ -1,0 +1,33 @@
+# Site settings
+title: "Python Problem Solving Blog"
+description: "Detailed solutions and explanations for coding problems in Python"
+author: "Daniel Birmajer"
+email: "dbirmajer@gmail.com"
+github_username: dbirmajer
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Enable syntax highlighting
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - problems/index.md
+  - about.md
+
+# Collections for organizing content
+collections:
+  problems:
+    output: true
+    permalink: /:collection/:name/
