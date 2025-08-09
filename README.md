@@ -14,7 +14,7 @@ Welcome to my collection of Python solutions for various coding problems! Here y
 - [Problem 1: Multiples of 3 and 5](problems/project-euler/problem-001.md)
 - [Problem 2: Even Fibonacci Numbers](problems/project-euler/problem-002.md)
 - [Problem 3: Largest Prime Factor](problems/project-euler/problem-003.md)
-- [Problem 4: Largest Palindrome Product](problems/project-euler/problem-003.md)
+- [Problem 4: Largest Palindrome Product](problems/project-euler/problem-004.md)
 
 ### Coming Soon
 - LeetCode problems
