@@ -1,4 +1,7 @@
-# Project Euler Problem 3: Largest Prime Factor
+---
+title: "Project Euler Problem 3: Largest Prime Factor"
+layout: post
+---
 
 
 ## Problem Statement
