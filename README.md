@@ -1,6 +1,3 @@
-# Python Problem Solving Blog
-
-
 Welcome to my collection of Python solutions for various coding problems! Here you'll find detailed explanations, multiple approaches, and key insights for each problem.
 
 ## 🚀 Featured Problems
