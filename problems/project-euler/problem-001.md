@@ -45,13 +45,13 @@ Let's trace through a few examples:
 ### Solution 1: Traditional Approach
 ```python
 total = 0
-for x in range(1000):
+for x in range(1_000):
     if x % 3 == 0 or x % 5 == 0:
         total += x
 print(total)
 ```
 
-### Solution 2: Generator Expression with OR
+### Solution 2: List Comprehension with OR
 ```python
 sum(x for x in range(1000) if x % 3 == 0 or x % 5 == 0)
 ```
@@ -71,52 +71,10 @@ result = sum_divisible_by(3, 1000) + sum_divisible_by(5, 1000) - sum_divisible_b
 
 - **My solution**: O(n) time, very readable and concise
 - **Traditional approach**: O(n) time, most readable for beginners
-- **Generator expression with OR**: O(n) time, standard Pythonic approach
+- **List comprehension with OR**: O(n) time, standard Pythonic approach
 - **Mathematical approach**: O(1) time, most efficient for large numbers
 
-## List Comprehension vs Generator Expression
-
-This is a perfect opportunity to clarify an important Python concept!
-
-### Generator Expression (what we're using):
-```python
-# Generator expression - uses parentheses
-sum(x for x in range(1000) if x % 3 == 0 or x % 5 == 0)
-```
-
-### List Comprehension (different syntax):
-```python
-# List comprehension - uses square brackets
-numbers = [x for x in range(1000) if x % 3 == 0 or x % 5 == 0]
-result = sum(numbers)
-```
-
-### Key Differences:
-
-| Generator Expression | List Comprehension |
-|---------------------|-------------------|
-| Uses `()` parentheses | Uses `[]` square brackets |
-| **Lazy evaluation** - generates values on-demand | **Eager evaluation** - creates entire list in memory |
-| Memory efficient | Uses more memory |
-| Can only iterate once | Can iterate multiple times |
-| Returns a generator object | Returns a list object |
-
-### Why Generator Expressions are Better Here:
-
-```python
-# Generator - memory efficient (only stores current value)
-sum(x for x in range(1_000_000) if x % 3 == 0 or x % 5 == 0)
-
-# List comprehension - creates huge list in memory first!
-sum([x for x in range(1_000_000) if x % 3 == 0 or x % 5 == 0])
-```
-
-For our Project Euler problem, the generator expression is perfect because:
-- We only need to iterate once (for the sum)
-- We don't need to store all values in memory
-- It's more efficient for large ranges
-
-
+## Why I Like This Solution
 
 1. **Concise**: One-liner that's still readable
 2. **Creative**: Uses multiplication instead of logical OR
