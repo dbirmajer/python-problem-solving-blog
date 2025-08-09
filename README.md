@@ -1,4 +1,10 @@
-# Python Problem Solving Blog
+---
+title: "# Python Problem Solving Blog"
+date: 2025-08-09
+categories: [project-euler, python, mathematics]
+---
+
+
 
 Welcome to my collection of Python solutions for various coding problems! Here you'll find detailed explanations, multiple approaches, and key insights for each problem.
 
