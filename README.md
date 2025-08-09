@@ -6,6 +6,7 @@ Welcome to my collection of Python solutions for various coding problems! Here y
 
 ### Project Euler
 - [Problem 1: Multiples of 3 and 5](problems/project-euler/problem-001.md)
+- [Problem 2: Even Fibonacci Numbers](problems/project-euler/problem-002.md)
 
 ### Coming Soon
 - LeetCode problems
