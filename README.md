@@ -1,5 +1,5 @@
 ---
-title: "# Python Problem Solving Blog"
+title: "Python Problem Solving Blog"
 date: 2025-08-09
 categories: [project-euler, python, mathematics]
 ---
