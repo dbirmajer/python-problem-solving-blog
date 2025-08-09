@@ -20,7 +20,7 @@ For example, with 13195:
 ```python
 from primePy import primes
 
-max(primes.factorise(600_851_475_143))
+max(primes.factors(600_851_475_143))
 ```
 
 **Result:** `6857`
@@ -28,7 +28,7 @@ max(primes.factorise(600_851_475_143))
 ## How This Solution Works
 
 The `primePy` library provides optimized functions for prime number operations:
-- `primes.factorise(n)` returns a list of all prime factors of n
+- `primes.factors(n)` returns a list of all prime factors of n
 - `max()` finds the largest factor from that list
 - Super concise - just one line of actual computation!
 
