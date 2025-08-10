@@ -1,0 +1,66 @@
+/* Custom styling for your blog */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.category-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+  margin-top: 0;
+  color: #0366d6;
+}
+
+.category-card a {
+  text-decoration: none;
+}
+
+.category-card small {
+  color: #6a737d;
+  font-style: italic;
+}
+
+/* Code block styling */
+.highlight {
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #e1e4e8;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+
+/* Difficulty stars */
+.difficulty {
+  color: #f39c12;
+}
