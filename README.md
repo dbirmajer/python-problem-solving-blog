@@ -8,6 +8,7 @@ Welcome to my collection of Python solutions for various coding problems! Here y
 - [Problem 3: Largest Prime Factor](problems/project-euler/problem-003.md)
 - [Problem 4: Largest Palindrome Product](problems/project-euler/problem-004.md)
 - [Problem 5: Smallest Multiple](problems/project-euler/problem-005.md)
+- [Problem 6: Sum Square Difference](problems/project-euler/problem-006.md)
 
 ### Coming Soon
 - LeetCode problems
