@@ -69,21 +69,7 @@ reduce(lcm, range(1, 21))
 
 ## Alternative Solutions
 
-### Solution 1: My Previous Custom LCM
-```python
-from functools import reduce
-import math
-
-def lcm_custom(a: int, b: int) -> int:
-    if a == b == 0:
-        raise ValueError('Either a or b must be nonZero')
-    return a * b // math.gcd(a, b)
-
-def euler_05_custom(n: int) -> int:
-    return reduce(lcm_custom, range(1, n + 1), 1)
-```
-
-### Solution 2: Using math.lcm with Multiple Arguments
+### Solution 1: Using math.lcm with Multiple Arguments
 ```python
 from math import lcm
 
@@ -91,7 +77,7 @@ def euler_05_direct():
     return lcm(*range(1, 21))  # Unpacks range into arguments
 ```
 
-### Solution 3: Traditional Loop
+### Solution 2: Traditional Loop
 ```python
 from math import lcm
 
@@ -102,7 +88,7 @@ def euler_05_loop():
     return result
 ```
 
-### Solution 4: Prime Factorization (Most Efficient for Large n)
+### Solution 3: Prime Factorization (Most Efficient for Large n)
 ```python
 def euler_05_prime_factorization(n: int) -> int:
     """Mathematical approach using prime powers."""
@@ -158,7 +144,7 @@ def benchmark_solutions():
 
 **Results:**
 - **My Solution**: Very fast, clean and readable
-- **Direct lcm(*args)**: Slightly faster, but less flexible
+- **Direct lcm(*args)**: Slightly faster, but less flexible  
 - **Traditional Loop**: Same performance, more verbose
 - **Prime Factorization**: More complex but scales better for large n
 
@@ -253,4 +239,39 @@ if __name__ == "__main__":
     # Show individual divisibility for a few numbers
     test_nums = [17, 18, 19, 20]
     for num in test_nums:
-        print(f
+        print(f"{result:,} ÷ {num} = {result // num:,} (remainder: {result % num})")
+```
+
+## Test Your Understanding
+
+1. **What's the LCM of numbers 1 to 30?** (Warning: it's quite large!)
+2. **Find the LCM of only the even numbers: 2, 4, 6, 8, ..., 20**
+3. **Can you solve this without using any imports?** (Implement your own LCM and reduce)
+
+```python
+# Hint for #2:
+def lcm_even_numbers():
+    return reduce(lcm, range(2, 21, 2))
+
+# Hint for #3: 
+def gcd_custom(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm_custom(a, b):
+    return a * b // gcd_custom(a, b)
+```
+
+## Evolution of the Solution
+
+This shows a great progression in Python programming:
+1. **First attempt**: Custom LCM function with error handling
+2. **Final solution**: Leverage built-in optimized functions
+3. **Result**: More concise, faster, and more maintainable
+
+Sometimes the best solution is recognizing when not to reinvent the wheel!
+
+---
+
+*This is part of my Python Problem Solving series. Check out more solutions on my [GitHub](your-github-link)!*
