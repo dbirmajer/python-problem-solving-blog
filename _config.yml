@@ -1,7 +1,7 @@
 # Site settings
 title: "Python Problem Solving Blog"
 description: "Elegant Python solutions to coding challenges with detailed explanations"
-author: "Your Name"
+author: "Daniel Birmajer"
 email: "dbirmajer@gmail.com"
 github_username: dbirmajer
 url: "https://dbirmajer.github.io"
@@ -45,4 +45,4 @@ future: true
 social:
   name: "Your Name"
   links:
-    - https://github.com/yourusernamedbirmajer
+    - https://github.com/dbirmajer
