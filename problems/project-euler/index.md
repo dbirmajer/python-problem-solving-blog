@@ -35,7 +35,7 @@ Each solution focuses on:
 | [004](problem-004.md) | Largest Palindrome Product | Smart loop bounds to avoid duplicates |
 | [005](problem-005.md) | Smallest Multiple | Built-in LCM with functional reduce |
 | [007](problem-007.md) | 10001st Prime | Efficient prime generation |
-
+| [010](problem-010.md) | Summation of Primes | Efficient prime generation |
 ## 🔥 Solution Highlights
 
 ### Most Elegant
