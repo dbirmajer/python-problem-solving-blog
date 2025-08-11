@@ -73,9 +73,9 @@ I regularly add new problems and improve existing solutions. Check back often or
 
 ## 📞 Get in Touch
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Issues/Suggestions**: [GitHub Issues](https://github.com/yourusername/python-problem-solving-blog/issues)
+- **GitHub**: [@yourusername](https://github.com/dbirmajer)
+- **Email**: dbirmajer@gmail.com
+- **Issues/Suggestions**: [GitHub Issues](https://github.com/dbirmajer/python-problem-solving-blog/issues)
 
 ---
 

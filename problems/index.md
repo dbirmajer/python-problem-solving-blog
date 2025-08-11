@@ -36,4 +36,4 @@ Mathematical programming challenges that combine computational skills with mathe
 
 ---
 
-*Want to suggest a problem? [Open an issue](https://github.com/yourusername/python-problem-solving-blog/issues) on GitHub!*
+*Want to suggest a problem? [Open an issue](https://github.com/dbirmajer/python-problem-solving-blog/issues) on GitHub!*
