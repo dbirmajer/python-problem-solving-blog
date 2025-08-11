@@ -1,9 +1,11 @@
 # Site settings
 title: "Python Problem Solving Blog"
-description: "Detailed solutions and explanations for coding problems in Python"
-author: "Daniel Birmajer"
+description: "Elegant Python solutions to coding challenges with detailed explanations"
+author: "Your Name"
 email: "dbirmajer@gmail.com"
 github_username: dbirmajer
+url: "https://dbirmajer.github.io"
+baseurl: "/python-problem-solving-blog"
 
 # Build settings
 markdown: kramdown
@@ -17,7 +19,7 @@ kramdown:
     css_class: 'highlight'
     block:
       line_numbers: true
-      
+
 # Plugins
 plugins:
   - jekyll-feed
@@ -29,7 +31,7 @@ header_pages:
   - problems/index.md
   - about.md
 
-# Collections for organizing content
+# Collections for organizing problems
 collections:
   problems:
     output: true
@@ -41,6 +43,6 @@ future: true
 
 # SEO settings
 social:
-  name: "Daniel Birmajer"
+  name: "Your Name"
   links:
-    - https://github.com/dbirmajer
+    - https://github.com/yourusername
