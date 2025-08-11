@@ -1,53 +1,11 @@
 ---
 layout: home
-title: "Welcome to Python Problem Solving"
 ---
 
-# Elegant Python Solutions to Coding Challenges
+# Python Problem Solving Blog
 
-Welcome to my blog where I share **clean, efficient Python solutions** to various coding problems with detailed explanations and multiple approaches.
+🎯 **Elegant solutions to coding challenges with detailed explanations**
 
-## 🎯 Latest Solutions
+## Recent Solutions
 
-{% for post in site.posts limit:3 %}
-### [{{ post.title }}]({{ post.url }})
-*{{ post.date | date: "%B %d, %Y" }}*
-
-{{ post.excerpt }}
-
-**Key concepts:** {{ post.tags | join: ", " }}
-{% endfor %}
-
-## 🚀 Problem Categories
-
-<div class="category-grid">
-  <div class="category-card">
-    <h3><a href="problems/project-euler/">🔢 Project Euler</a></h3>
-    <p>Mathematical programming challenges that combine math and coding skills.</p>
-    <small>7 problems solved</small>
-  </div>
-  
-  <div class="category-card">
-    <h3>🧩 LeetCode</h3>
-    <p>Interview preparation problems covering algorithms and data structures.</p>
-    <small>Coming soon...</small>
-  </div>
-  
-  <div class="category-card">
-    <h3>⚡ Algorithms</h3>
-    <p>Classic algorithm implementations with detailed explanations.</p>
-    <small>Coming soon...</small>
-  </div>
-</div>
-
-## 💫 What You'll Find Here
-
-- **Multiple solution approaches** from beginner to advanced
-- **Performance analysis** and complexity comparisons  
-- **Python best practices** with modern coding patterns
-- **Mathematical insights** behind each problem
-- **Complete working code** you can run immediately
-
----
-
-*Ready to dive in? Start with [Project Euler Problem 1](problems/project-euler/problem-001.md)!*
+<!-- This will automatically show your latest blog posts -->
