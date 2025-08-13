@@ -33,7 +33,7 @@ Each solution focuses on:
 | Problem | Title | Key Insight |
 |---------|-------|-------------|
 | [002](problem-002.md) | Even Fibonacci Numbers | Infinite generators + takewhile |
-| [025](problem-025.md) | Even Fibonacci Numbers | Infinite generators + dropwhile |
+| [025x](problem-025.md) | Fibonacci Numbers | Infinite generators + dropwhile |
 | [003](problem-003.md) | Largest Prime Factor | Leveraging specialized libraries |
 | [004](problem-004.md) | Largest Palindrome Product | Smart loop bounds to avoid duplicates |
 | [005](problem-005.md) | Smallest Multiple | Built-in LCM with functional reduce |
