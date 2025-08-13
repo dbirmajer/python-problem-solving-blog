@@ -41,6 +41,13 @@ collections:
 show_excerpts: true
 future: true
 
+# Add this section to enable MathJax globally
+head_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
+# Configure MathJax
+mathjax: true
+
 # Exclude problematic files
 exclude:
   - "*.old"
