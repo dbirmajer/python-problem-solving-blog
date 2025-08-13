@@ -28,10 +28,12 @@ Each solution focuses on:
 | [006](problem-006.md) | Sum Square Difference | Direct mathematical translation |
 | [016](problem-016.md) | Power Digit Sum | Working with Large Numbers |
 | [020](problem-020.md) | Factorial Digit Sum | Working with Large Numbers |
+
 ### Intermediate Level ⭐⭐  
 | Problem | Title | Key Insight |
 |---------|-------|-------------|
 | [002](problem-002.md) | Even Fibonacci Numbers | Infinite generators + takewhile |
+| [002](problem-025.md) | Even Fibonacci Numbers | Infinite generators + dropwhile |
 | [003](problem-003.md) | Largest Prime Factor | Leveraging specialized libraries |
 | [004](problem-004.md) | Largest Palindrome Product | Smart loop bounds to avoid duplicates |
 | [005](problem-005.md) | Smallest Multiple | Built-in LCM with functional reduce |
