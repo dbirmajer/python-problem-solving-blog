@@ -26,7 +26,8 @@ Each solution focuses on:
 |---------|-------|-------------|
 | [001](problem-001.md) | Multiples of 3 and 5 | Multiplication trick for OR conditions |
 | [006](problem-006.md) | Sum Square Difference | Direct mathematical translation |
-
+| [016](problem-016.md) | Power Digit Sum | Working with Large Numbers |
+| [020](problem-020.md) | Factorial Digit Sum | Working with Large Numbers |
 ### Intermediate Level ⭐⭐  
 | Problem | Title | Key Insight |
 |---------|-------|-------------|
@@ -37,7 +38,7 @@ Each solution focuses on:
 | [007](problem-007.md) | 10001st Prime | Efficient prime generation |
 | [010](problem-010.md) | Summation of Primes | Efficient prime generation |
 | [012](problem-012.md) | Highly Divisible Triangular Numbers | Working with Generators |
-| [016](problem-016.md) | Power Digit Sum | Working with Large Numbers |
+
 
 ## 🔥 Solution Highlights
 
