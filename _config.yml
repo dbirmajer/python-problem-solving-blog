@@ -41,8 +41,15 @@ collections:
 show_excerpts: true
 future: true
 
+# Exclude problematic files
+exclude:
+  - "*.old"
+  - ".#*"
+  - "*.tmp"
+  - "*.bak"
+  
 # SEO settings
 social:
-  name: "Your Name"
+  name: "dbirmajer"
   links:
     - https://github.com/dbirmajer

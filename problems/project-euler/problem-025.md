@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Project Euler Problem 25: 1000-digit Fibonacci Number"
+math: true
 date: 2025-08-13
 categories: [project-euler, fibonacci, big-numbers]
 tags: [python, generators, itertools, arbitrary-precision, mathematical-sequences]
