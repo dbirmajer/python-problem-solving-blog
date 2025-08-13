@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Project Euler Problem 25: 1000-digit Fibonacci Number"
+math: true
+date: 2025-08-13
+categories: [project-euler, fibonacci, big-numbers]
+tags: [python, generators, itertools, arbitrary-precision, mathematical-sequences]
+author: dbirmajer
+excerpt: "Find the index of the first Fibonacci number with 1000 digits using elegant generator composition and iterator patterns."
+---
+
+## Problem Statement
+
+The Fibonacci sequence is defined by the recurrence relation:
+
+$$
+F_n = F_{n-1} + F_{n-2}, \quad F_1 = 1, \quad F_2 = 1
+$$
+
+Hence the first 12 terms will be:
+
+$$
+F_1 = 1, \quad F_2 = 1, \quad F_3 = 2, \quad F_4 = 3, \quad F_5 = 5, \quad F_6 = 8, \\
+F_7 = 13, \quad F_8 = 21, \quad F_9 = 34, \quad F_{10} = 55, \quad F_{11} = 89, \quad F_{12} = 144
+$$
+
+The 12th term, $F_{12}$, is the first term to contain three digits.
+
+**Question:** What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
+
+---
+
+## The Elegant Solution
+
+Here's my solution using Python's powerful iterator composition:
+
+```python
+from typing import Iterator
+from itertools import dropwhile
+
+def fibonacci(a: int = 0, b: int = 1) -> Iterator[int]:
+    while True:
+        yield a
+        a, b = b, a + b
+
+g = dropwhile(lambda pair: pair[1] < 10**999, enumerate(fibonacci()))
+print(next(g)[0])
