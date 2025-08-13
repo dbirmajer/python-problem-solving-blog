@@ -9,8 +9,6 @@ author: dbirmajer
 excerpt: "Find the index of the first Fibonacci number with 1000 digits using elegant generator composition and iterator patterns."
 ---
 
-# Project Euler Problem 25: 1000-digit Fibonacci Number
-
 ## Problem Statement
 
 The Fibonacci sequence is defined by the recurrence relation:
