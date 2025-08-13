@@ -8,7 +8,6 @@ author: dbirmajer
 excerpt: "Calculate the sum of digits in 100! using efficient digit extraction and exploring the explosive growth of factorials."
 ---
 
-# Project Euler Problem 20: Factorial Digit Sum
 
 ## Problem Statement
 
