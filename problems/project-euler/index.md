@@ -26,6 +26,7 @@ Each solution focuses on:
 |---------|-------|-------------|
 | [001](problem-001.md) | Multiples of 3 and 5 | Multiplication trick for OR conditions |
 | [006](problem-006.md) | Sum Square Difference | Direct mathematical translation |
+| [009](problem-020.md) | Special Pythagorean Triplet | Pythagorean Triplet |
 | [016](problem-016.md) | Power Digit Sum | Working with Large Numbers |
 | [020](problem-020.md) | Factorial Digit Sum | Working with Large Numbers |
 
