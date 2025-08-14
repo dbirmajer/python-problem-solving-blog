@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project Euler Solutions"
-permalink: /_posts_
+permalink: /_posts/
 ---
 
 # Project Euler Solutions
