@@ -1,2 +1,26 @@
-{% include custom-head.html %}
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
+    </title>
+
+    {% include custom-head.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
