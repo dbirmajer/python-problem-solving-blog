@@ -41,7 +41,7 @@ Each solution focuses on:
 | [007](problem-007.md) | 10001st Prime | Efficient prime generation |
 | [010](problem-010.md) | Summation of Primes | Efficient prime generation |
 | [012](problem-012.md) | Highly Divisible Triangular Numbers | Working with Generators |
-
+| [029](problem-029.md) | Distinct Powers | Working with Sets |
 
 ## 🔥 Solution Highlights
 
