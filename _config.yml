@@ -12,14 +12,17 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-# Enable syntax highlighting
+# Kramdown settings
 kramdown:
-  math_engine: mathjax		
+  math_engine: mathjax
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
     block:
       line_numbers: true
+  # Add these for better MathJax support
+  input: GFM
+  hard_wrap: false
 
 # Plugins
 plugins:
@@ -42,12 +45,14 @@ collections:
 show_excerpts: true
 future: true
 
-# Add this section to enable MathJax globally
-head_scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
-
-# Configure MathJax
+# MathJax configuration
 mathjax: true
+
+# SEO settings
+social:
+  name: "dbirmajer"
+  links:
+    - https://github.com/dbirmajer
 
 # Exclude problematic files
 exclude:
@@ -55,9 +60,11 @@ exclude:
   - ".#*"
   - "*.tmp"
   - "*.bak"
-  
-# SEO settings
-social:
-  name: "dbirmajer"
-  links:
-    - https://github.com/dbirmajer
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
