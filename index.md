@@ -13,7 +13,7 @@ various coding problems with detailed explanations and multiple approaches.
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="{{ site.baseurl }}/problems/">🔢 Project Euler</a></h3>
+    <h3><a href="{{ site.baseurl }}/_problems/">🔢 Project Euler</a></h3>
     <p>Mathematical programming challenges that combine math and coding skills.</p>
     <small>7 problems solved</small>
   </div>
