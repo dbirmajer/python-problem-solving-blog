@@ -20,9 +20,10 @@ kramdown:
     css_class: 'highlight'
     block:
       line_numbers: true
-  # Add these for better MathJax support
   input: GFM
   hard_wrap: false
+  # Remove the extra math_engine_opts if you had them
+  
 
 # Plugins
 plugins:
