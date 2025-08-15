@@ -1,8 +1,12 @@
 ---
-title: "Project Euler Problem 2: Even Fibonacci Numbers"
-date: 2025-08-10
-categories: [project-euler, python, sequences]
-tags: [fibonacci, generators, even-numbers, itertools, mathematical-sequences]
+layout: default
+title: "Project Euler Problem 3: Largest Prime Factor"
+date: 2025-08-11
+math: true
+categories: [project-euler, python, number-theory]
+tags: [prime-numbers, factorization, optimization, mathematical-algorithms, large-numbers]
+author: dbirmajer
+excerpt: "Find the largest prime factor of 600851475143 using efficient factorization algorithms and the primePy library."
 ---
 
 
