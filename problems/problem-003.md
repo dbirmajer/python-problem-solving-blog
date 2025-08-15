@@ -19,7 +19,7 @@ What is the largest prime factor of the number 600851475143?
 ## Understanding the Problem
 
 We need to:
-1. Find all prime factors of 600,851,475,143
+1. Find all prime factors of $600,851,475,143$
 2. Return the largest one
 
 For example, with 13195:
@@ -205,13 +205,13 @@ Your solution showcases an important programming principle: **leverage existing,
 
 ## Mathematical Insights
 
-### Why We Only Check Up to √n
+### Why We Only Check Up to $\sqrt{n}$
 If $n$ has a factor greater than $\sqrt{n}$, it must be paired with a factor less than $\sqrt{n}$:
 - If $n = a \times b$ and both $a, b > \sqrt{n}$, then $a \times b > n$ (impossible!)
 - So we only need to check factors up to $\sqrt{n}$.
 
 ### The Special Case: Large Prime Remainders  
-After removing all small prime factors, if n > 1 remains, then n itself is prime:
+After removing all small prime factors, if $n > 1$ remains, then $n$ itself is prime:
 ```python
 # Example: 77 = 7 × 11
 n = 77
