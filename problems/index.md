@@ -2,6 +2,7 @@
 layout: page
 title: "Project Euler Solutions"
 permalink: /problems/
+math: true
 ---
 
 # Project Euler Solutions
