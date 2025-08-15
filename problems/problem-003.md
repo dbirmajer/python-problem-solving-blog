@@ -1,6 +1,8 @@
 ---
-title: "Project Euler Problem 3: Largest Prime Factor"
-layout: post
+title: "Project Euler Problem 2: Even Fibonacci Numbers"
+date: 2025-08-10
+categories: [project-euler, python, sequences]
+tags: [fibonacci, generators, even-numbers, itertools, mathematical-sequences]
 ---
 
 
