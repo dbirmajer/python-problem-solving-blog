@@ -207,8 +207,8 @@ Your solution showcases an important programming principle: **leverage existing,
 
 ### Why We Only Check Up to √n
 If $n$ has a factor greater than $\sqrt{n}$, it must be paired with a factor less than $\sqrt{n}$:
-- If n = a × b and both a,b > √n, then a × b > n (impossible!)
-- So we only need to check factors up to √n
+- If $n = a \times b$ and both $a, b > \sqrt{n}$, then $a \times b > n$ (impossible!)
+- So we only need to check factors up to $\sqrt{n}$.
 
 ### The Special Case: Large Prime Remainders  
 After removing all small prime factors, if n > 1 remains, then n itself is prime:
