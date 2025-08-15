@@ -40,7 +40,7 @@ header_pages:
 collections:
   problems:
     output: true
-    permalink: /:collection/:name/
+    permalink: /problems/:name/
 
 # Custom settings
 show_excerpts: true
