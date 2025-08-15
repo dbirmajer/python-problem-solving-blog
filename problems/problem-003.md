@@ -12,7 +12,7 @@ excerpt: "Find the largest prime factor of 600851475143 using efficient factoriz
 
 ## Problem Statement
 
-The prime factors of 13195 are 5, 7, 13 and 29.
+The prime factors of 13,195 are 5, 7, 13 and 29.
 
 What is the largest prime factor of the number 600851475143?
 
@@ -23,7 +23,7 @@ We need to:
 2. Return the largest one
 
 For example, with 13195:
-- 13195 = 5 × 7 × 13 × 29
+- $13,195 = 5 \times 7 \times 13 \times 29$
 - Prime factors: [5, 7, 13, 29]
 - Largest: 29
 
