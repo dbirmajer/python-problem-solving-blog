@@ -22,24 +22,12 @@ Welcome to my blog where I share **clean, efficient Python solutions** to variou
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="problems/project-euler/">🔢 Project Euler</a></h3>
+    <h3><a href="problems/">🔢 Project Euler</a></h3>
     <p>Mathematical programming challenges that combine math and coding skills.</p>
     <small>7 problems solved</small>
   </div>
   
-  <div class="category-card">
-    <h3>🧩 LeetCode</h3>
-    <p>Interview preparation problems covering algorithms and data structures.</p>
-    <small>Coming soon...</small>
-  </div>
-  
-  <div class="category-card">
-    <h3>⚡ Algorithms</h3>
-    <p>Classic algorithm implementations with detailed explanations.</p>
-    <small>Coming soon...</small>
-  </div>
-</div>
-
+ 
 ## 💫 What You'll Find Here
 
 - **Multiple solution approaches** from beginner to advanced
