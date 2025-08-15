@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: default
 title: "Welcome to Python Problem Solving"
+math: true
 ---
 
 # Elegant Python Solutions to Coding Challenges
@@ -9,25 +10,25 @@ Welcome to my blog where I share **clean, efficient Python solutions** to variou
 
 ## 🎯 Latest Solutions
 
-{% for post in site.posts limit:3 %}
-### [{{ post.title }}]({{ post.url }})
-*{{ post.date | date: "%B %d, %Y" }}*
+{% for problem in site.problems limit:3 %}
+### [{{ problem.title }}]({{ problem.url }})
+*{{ problem.date | date: "%B %d, %Y" }}*
 
-{{ post.excerpt }}
+{{ problem.excerpt }}
 
-**Key concepts:** {{ post.tags | join: ", " }}
+**Key concepts:** {{ problem.tags | join: ", " }}
 {% endfor %}
 
 ## 🚀 Problem Categories
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="problems/">🔢 Project Euler</a></h3>
+    <h3><a href="{{ site.baseurl }}/problems/">🔢 Project Euler</a></h3>
     <p>Mathematical programming challenges that combine math and coding skills.</p>
     <small>7 problems solved</small>
   </div>
-  
- 
+</div>
+
 ## 💫 What You'll Find Here
 
 - **Multiple solution approaches** from beginner to advanced
@@ -38,4 +39,4 @@ Welcome to my blog where I share **clean, efficient Python solutions** to variou
 
 ---
 
-*Ready to dive in? Start with [Project Euler Problem 1](problems/project-euler/problem-001.md)!*
+*Ready to dive in? Start with [Project Euler Problem 1]({{ site.baseurl }}/problems/project-euler-problem-001/)!*
